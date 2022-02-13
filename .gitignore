@@ -1,0 +1,4 @@
+
+#ignore LTspice Log files and raw files
+*.log
+*.raw
