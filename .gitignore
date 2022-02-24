@@ -5,3 +5,5 @@
 *.plt
 *.fft
 *.imp
+*.txt
+*.csv
