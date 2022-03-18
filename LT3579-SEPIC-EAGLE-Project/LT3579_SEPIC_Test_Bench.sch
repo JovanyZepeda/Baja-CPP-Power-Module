@@ -115,34 +115,6 @@
 <wire x1="-2.2" y1="2.6" x2="-1.55" y2="3.25" width="0.1" layer="51"/>
 <wire x1="-3.65" y1="3.5" x2="-2.2" y2="3.5" width="0.2" layer="21"/>
 </package>
-<package name="MSD1278T183MLD">
-<description>&lt;b&gt;MSD1278T-183MLD-1&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="1.75" y="4.25" dx="4" dy="2" layer="1" rot="R90"/>
-<smd name="2" x="-1.75" y="4.25" dx="4" dy="2" layer="1" rot="R90"/>
-<smd name="3" x="-1.75" y="-4.25" dx="4" dy="2" layer="1" rot="R90"/>
-<smd name="4" x="1.75" y="-4.25" dx="4" dy="2" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-6.15" y1="6.15" x2="6.15" y2="6.15" width="0.1" layer="51"/>
-<wire x1="6.15" y1="6.15" x2="6.15" y2="-6.15" width="0.1" layer="51"/>
-<wire x1="6.15" y1="-6.15" x2="-6.15" y2="-6.15" width="0.1" layer="51"/>
-<wire x1="-6.15" y1="-6.15" x2="-6.15" y2="6.15" width="0.1" layer="51"/>
-<wire x1="-7.15" y1="7.25" x2="7.15" y2="7.25" width="0.1" layer="51"/>
-<wire x1="7.15" y1="7.25" x2="7.15" y2="-7.25" width="0.1" layer="51"/>
-<wire x1="7.15" y1="-7.25" x2="-7.15" y2="-7.25" width="0.1" layer="51"/>
-<wire x1="-7.15" y1="-7.25" x2="-7.15" y2="7.25" width="0.1" layer="51"/>
-<wire x1="3.2" y1="6.15" x2="6.15" y2="6.15" width="0.2" layer="21"/>
-<wire x1="6.15" y1="6.15" x2="6.15" y2="-6.15" width="0.2" layer="21"/>
-<wire x1="6.15" y1="-6.15" x2="3.2" y2="-6.15" width="0.2" layer="21"/>
-<wire x1="-3.2" y1="6.15" x2="-6.15" y2="6.15" width="0.2" layer="21"/>
-<wire x1="-6.15" y1="6.15" x2="-6.15" y2="-6.15" width="0.2" layer="21"/>
-<wire x1="-6.15" y1="-6.15" x2="-3.2" y2="-6.15" width="0.2" layer="21"/>
-<wire x1="1.8" y1="6.8" x2="1.8" y2="6.8" width="0.1" layer="21"/>
-<wire x1="1.8" y1="6.8" x2="1.7" y2="6.8" width="0.1" layer="21" curve="180"/>
-<wire x1="1.7" y1="6.8" x2="1.7" y2="6.8" width="0.1" layer="21"/>
-<wire x1="1.7" y1="6.8" x2="1.8" y2="6.8" width="0.1" layer="21" curve="180"/>
-</package>
 <package name="DIOM8059X261N">
 <description>&lt;b&gt;SMC 2LEAD CASE 403AC ISSUE A&lt;/b&gt;&lt;br&gt;
 </description>
@@ -300,18 +272,6 @@
 <pin name="SW2_2" x="35.56" y="-20.32" length="middle" rot="R180"/>
 <pin name="SW2_1" x="35.56" y="-22.86" length="middle" rot="R180"/>
 </symbol>
-<symbol name="MSD1278T-183MLD">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="2" x="0" y="0" length="middle"/>
-<pin name="3" x="0" y="-2.54" length="middle"/>
-<pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
-</symbol>
 <symbol name="MBRS360T3G">
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
@@ -460,33 +420,6 @@ Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-
 <attribute name="MANUFACTURER_PART_NUMBER" value="LT3579EFE#PBF" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="584-LT3579EFE#PBF" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=584-LT3579EFE%23PBF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MSD1278T-183MLD" prefix="L">
-<description>&lt;b&gt;Coupled Inductors 18uH Shld 20% 3.08A 80mOhms AECQ2&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MSD1278T-183MLD.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="MSD1278T-183MLD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MSD1278T183MLD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Coupled Inductors 18uH Shld 20% 3.08A 80mOhms AECQ2" constant="no"/>
-<attribute name="HEIGHT" value="8.05mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="COILCRAFT" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MSD1278T-183MLD" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="994-MSD1278T-183MLD" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Coilcraft/MSD1278T-183MLD?qs=zCSbvcPd3pZq50rDgPlqrg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -752,6 +685,324 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </deviceset>
 </devicesets>
 </library>
+<library name="AC0805FR-0730KL">
+<packages>
+<package name="RESC2012X60N">
+<text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-0.17" y1="0.68" x2="0.17" y2="0.68" width="0.127" layer="21"/>
+<wire x1="-0.17" y1="-0.68" x2="0.17" y2="-0.68" width="0.127" layer="21"/>
+<wire x1="-1.665" y1="-0.94" x2="1.665" y2="-0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="-0.94" x2="-1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="1.665" y1="-0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<smd name="1" x="-0.955" y="0" dx="0.92" dy="1.38" layer="1"/>
+<smd name="2" x="0.955" y="0" dx="0.92" dy="1.38" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AC0805FR-0730KL">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AC0805FR-0730KL" prefix="R">
+<description>RES SMD 30K OHM 1% 1/8W 0805 &lt;a href="https://pricing.snapeda.com/parts/AC0805FR-0730KL/Yageo/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AC0805FR-0730KL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC2012X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 30 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film "/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MP" value="AC0805FR-0730KL"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/AC0805FR-0730KL/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="AT0805FRE07100KL">
+<packages>
+<package name="RESC2012X60N">
+<text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-0.17" y1="0.68" x2="0.17" y2="0.68" width="0.127" layer="21"/>
+<wire x1="-0.17" y1="-0.68" x2="0.17" y2="-0.68" width="0.127" layer="21"/>
+<wire x1="-1.665" y1="-0.94" x2="1.665" y2="-0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="-0.94" x2="-1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="1.665" y1="-0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<smd name="1" x="-0.955" y="0" dx="0.92" dy="1.38" layer="1"/>
+<smd name="2" x="0.955" y="0" dx="0.92" dy="1.38" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AT0805FRE07100KL">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AT0805FRE07100KL" prefix="R">
+<description>Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200
+ &lt;a href="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AT0805FRE07100KL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC2012X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" Thin Film Resistors - SMD 0805 100kOhms 1.0% 50PPM 125mW AEC-Q200 "/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MP" value="AT0805FRE07150KL"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/YAGEO/AT0805FRE07100KL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdDSHHfFClmJg%3D"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="AC0805FR-07150KL">
+<packages>
+<package name="RESC2012X60N">
+<text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-0.17" y1="0.68" x2="0.17" y2="0.68" width="0.127" layer="21"/>
+<wire x1="-0.17" y1="-0.68" x2="0.17" y2="-0.68" width="0.127" layer="21"/>
+<wire x1="-1.665" y1="-0.94" x2="1.665" y2="-0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="-0.94" x2="-1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="1.665" y1="-0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<smd name="1" x="-0.955" y="0" dx="0.92" dy="1.38" layer="1"/>
+<smd name="2" x="0.955" y="0" dx="0.92" dy="1.38" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AC0805FR-07150KL">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AC0805FR-07150KL" prefix="R">
+<description>RES SMD 150K OHM 1% 1/8W 0805 &lt;a href="https://pricing.snapeda.com/parts/AC0805FR-07150KL/Yageo/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AC0805FR-07150KL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC2012X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 150 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film "/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MP" value="AC0805FR-07150KL"/>
+<attribute name="PACKAGE" value="2012 Rohm Semiconductor"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/AC0805FR-07150KL/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="AC0805DR-0710KL">
+<packages>
+<package name="RESC2012X60N">
+<text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-0.17" y1="0.68" x2="0.17" y2="0.68" width="0.127" layer="21"/>
+<wire x1="-0.17" y1="-0.68" x2="0.17" y2="-0.68" width="0.127" layer="21"/>
+<wire x1="-1.665" y1="-0.94" x2="1.665" y2="-0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="-0.94" x2="-1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="1.665" y1="-0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<smd name="1" x="-0.955" y="0" dx="0.92" dy="1.38" layer="1"/>
+<smd name="2" x="0.955" y="0" dx="0.92" dy="1.38" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AC0805DR-0710KL">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AC0805DR-0710KL" prefix="R">
+<description>RES SMD 18 OHM 5% 1/8W 0805                                                 &lt;a href="https://pricing.snapeda.com/parts/AC0805DR-0710KL/YAGEO/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AC0805DR-0710KL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC2012X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" Thick Film Resistors - SMD 10kOhms 1/8W 0805 0.5% AEC-Q200 "/>
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MP" value="AC0805DR-0710KL"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="MSD1278T-Series">
+<packages>
+<package name="MSD1278T-822MLXX">
+<smd name="2" x="-1.75" y="4.25" dx="4" dy="2" layer="1" rot="R90"/>
+<smd name="3" x="-1.75" y="-4.25" dx="4" dy="2" layer="1" rot="R90"/>
+<smd name="1" x="1.75" y="4.25" dx="4" dy="2" layer="1" rot="R270"/>
+<smd name="4" x="1.75" y="-4.25" dx="4" dy="2" layer="1" rot="R270"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.127" layer="21"/>
+<rectangle x1="-2.5" y1="2.5" x2="-1" y2="6" layer="51"/>
+<rectangle x1="1" y1="2.5" x2="2.5" y2="6" layer="51"/>
+<rectangle x1="-2.5" y1="-6" x2="-1" y2="-2.5" layer="51"/>
+<rectangle x1="1" y1="-6" x2="2.5" y2="-2.5" layer="51"/>
+<wire x1="-6.15" y1="6.15" x2="6.15" y2="6.15" width="0.1524" layer="51"/>
+<wire x1="-6.15" y1="-6.15" x2="6.15" y2="-6.15" width="0.1524" layer="51"/>
+<wire x1="-6.15" y1="6.15" x2="-6.15" y2="-6.15" width="0.1524" layer="51"/>
+<wire x1="6.15" y1="6.15" x2="6.15" y2="-6.15" width="0.1524" layer="51"/>
+<circle x="5.5" y="7.5" radius="0.390509375" width="0.508" layer="21"/>
+<text x="-6.5" y="8.6" size="1.778" layer="25">&gt;NAME</text>
+<text x="-6.5" y="-9.1" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MSD1278T">
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<pin name="2" x="7.62" y="5.08" length="middle"/>
+<pin name="4" x="7.62" y="-5.08" length="middle"/>
+<pin name="1" x="-7.62" y="5.08" length="middle" rot="R180"/>
+<pin name="3" x="-7.62" y="-5.08" length="middle" rot="R180"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MSD1278T-XXXXX__">
+<description>The MSD1278T series of shielded coupled inductors was
+designed specifically for high temperature applications –
+up to 125°C ambient.</description>
+<gates>
+<gate name="G$1" symbol="MSD1278T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSD1278T-822MLXX">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -763,13 +1014,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </classes>
 <parts>
 <part name="IC1" library="SamacSys_Parts" deviceset="LT3579EFE#PBF" device=""/>
-<part name="L1L2" library="SamacSys_Parts" deviceset="MSD1278T-183MLD" device=""/>
 <part name="D1" library="SamacSys_Parts" deviceset="MBRS360T3G" device=""/>
 <part name="C_IN_1" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
 <part name="C_IN_2" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
 <part name="C_1" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
-<part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C_OUT_1" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
 <part name="C_SS" library="SamacSys_Parts" deviceset="CGA4J2X8R1E224K125AE" device=""/>
 <part name="C_OUT_2" library="SamacSys_Parts" deviceset="CGA4J1X7R1E475K125AE" device=""/>
@@ -780,83 +1028,304 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="R_T" library="SamacSys_Parts" deviceset="AC0805FR-07124KL" device=""/>
 <part name="R_C" library="SamacSys_Parts" deviceset="AC0805JR-0712KL" device=""/>
 <part name="U2" library="SamacSys_Parts" deviceset="RQ5E050ATTCL" device=""/>
+<part name="R_UVLO1" library="AC0805FR-0730KL" deviceset="AC0805FR-0730KL" device=""/>
+<part name="R_FAULT" library="AT0805FRE07100KL" deviceset="AT0805FRE07100KL" device=""/>
+<part name="R_FB" library="AC0805FR-07150KL" deviceset="AC0805FR-07150KL" device=""/>
+<part name="R_GATE" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
+<part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="L1L2" library="MSD1278T-Series" deviceset="MSD1278T-XXXXX__" device=""/>
+<part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-40.64" y="53.34" size="1.778" layer="91">LT3579 SEPIC Config: 13Vin -&gt; 14Vout</text>
+<text x="-33.02" y="20.32" size="1.778" layer="91">LT3579 SEPIC Config: 13Vin -&gt; 14Vout</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="-17.78" y="12.7" smashed="yes">
 <attribute name="NAME" x="13.97" y="20.32" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="13.97" y="17.78" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="L1L2" gate="G$1" x="-58.42" y="38.1" smashed="yes">
-<attribute name="NAME" x="-41.91" y="45.72" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-41.91" y="43.18" size="1.778" layer="96" align="center-left"/>
+<instance part="D1" gate="G$1" x="35.56" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.13" y="127" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="34.29" y="116.84" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="D1" gate="G$1" x="50.8" y="53.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.37" y="48.26" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="39.37" y="50.8" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="C_IN_1" gate="G$1" x="-7.62" y="58.42" smashed="yes">
+<attribute name="NAME" x="-8.89" y="64.77" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-8.89" y="54.61" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_IN_1" gate="G$1" x="-55.88" y="-12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="-62.23" y="-3.81" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-59.69" y="-3.81" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="C_IN_2" gate="G$1" x="-7.62" y="73.66" smashed="yes">
+<attribute name="NAME" x="-8.89" y="80.01" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-8.89" y="69.85" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_IN_2" gate="G$1" x="-68.58" y="-12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="-74.93" y="-3.81" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-72.39" y="-3.81" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="C_1" gate="G$1" x="-22.86" y="121.92" smashed="yes">
+<attribute name="NAME" x="-21.59" y="128.27" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-21.59" y="118.11" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_1" gate="G$1" x="55.88" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="46.99" y="21.59" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="46.99" y="24.13" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="C_OUT_1" gate="G$1" x="114.3" y="104.14" smashed="yes">
+<attribute name="NAME" x="113.03" y="110.49" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="110.49" y="100.33" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="X_1" gate="G$1" x="-68.58" y="-17.78" smashed="yes"/>
-<instance part="X_2" gate="G$1" x="-55.88" y="-17.78" smashed="yes"/>
-<instance part="C_OUT_1" gate="G$1" x="81.28" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.93" y="24.13" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="77.47" y="24.13" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="C_SS" gate="G$1" x="48.26" y="20.32" smashed="yes">
+<attribute name="NAME" x="49.53" y="24.13" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="49.53" y="16.51" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_SS" gate="G$1" x="58.42" y="-25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.07" y="-16.51" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="54.61" y="-16.51" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="C_OUT_2" gate="G$1" x="114.3" y="88.9" smashed="yes">
+<attribute name="NAME" x="113.03" y="95.25" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="110.49" y="85.09" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_OUT_2" gate="G$1" x="96.52" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.17" y="24.13" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="92.71" y="24.13" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="C_OUT_3" gate="G$1" x="114.3" y="73.66" smashed="yes">
+<attribute name="NAME" x="113.03" y="80.01" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="110.49" y="69.85" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_OUT_3" gate="G$1" x="111.76" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="105.41" y="24.13" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="107.95" y="24.13" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="C_F" gate="G$1" x="132.08" y="-12.7" smashed="yes">
+<attribute name="NAME" x="133.35" y="-8.89" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="133.35" y="-16.51" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_F" gate="G$1" x="81.28" y="-15.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="87.63" y="-24.13" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="85.09" y="-24.13" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="C_C" gate="G$1" x="132.08" y="5.08" smashed="yes">
+<attribute name="NAME" x="133.35" y="8.89" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="133.35" y="1.27" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C_C" gate="G$1" x="86.36" y="-5.08" smashed="yes">
-<attribute name="NAME" x="95.25" y="1.27" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="95.25" y="-1.27" size="1.778" layer="96" align="center-left"/>
+<instance part="R_UVLO2" gate="G$1" x="-66.04" y="-43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-69.85" y="-41.91" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="-62.23" y="-41.91" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="R_UVLO2" gate="G$1" x="104.14" y="-53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.79" y="-39.37" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="100.33" y="-39.37" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="R_T" gate="G$1" x="48.26" y="7.62" smashed="yes">
+<attribute name="NAME" x="52.07" y="11.43" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="49.53" y="3.81" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R_T" gate="G$1" x="119.38" y="-50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="113.03" y="-36.83" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="115.57" y="-36.83" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="R_C" gate="G$1" x="106.68" y="5.08" smashed="yes">
+<attribute name="NAME" x="110.49" y="8.89" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="107.95" y="1.27" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R_C" gate="G$1" x="134.62" y="-50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="128.27" y="-36.83" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="130.81" y="-36.83" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="U2" gate="G$1" x="88.9" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.47" y="128.27" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="77.47" y="125.73" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="U2" gate="G$1" x="33.02" y="-40.64" smashed="yes">
-<attribute name="NAME" x="44.45" y="-36.83" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="44.45" y="-39.37" size="1.778" layer="96" align="center-left"/>
+<instance part="R_UVLO1" gate="G$1" x="-66.04" y="-10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="-68.58148125" y="-17.784440625" size="2.54148125" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-60.953359375" y="-17.78996875" size="2.54331875" layer="96" rot="R90"/>
 </instance>
+<instance part="R_FAULT" gate="G$1" x="-43.18" y="-33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="-45.72148125" y="-40.644440625" size="2.54148125" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-38.093359375" y="-40.64996875" size="2.54331875" layer="96" rot="R90"/>
+</instance>
+<instance part="R_FB" gate="G$1" x="58.42" y="104.14" smashed="yes">
+<attribute name="NAME" x="50.795559375" y="106.68148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="43.17003125" y="99.053359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R_GATE" gate="G$1" x="58.42" y="88.9" smashed="yes">
+<attribute name="NAME" x="50.795559375" y="91.44148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="43.17003125" y="83.813359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="X_3" gate="G$1" x="-66.04" y="-50.8" smashed="yes"/>
+<instance part="X_7" gate="G$1" x="152.4" y="-12.7" smashed="yes" rot="R90"/>
+<instance part="X_8" gate="G$1" x="152.4" y="5.08" smashed="yes" rot="R90"/>
+<instance part="X_9" gate="G$1" x="73.66" y="20.32" smashed="yes" rot="R90"/>
+<instance part="X_10" gate="G$1" x="73.66" y="7.62" smashed="yes" rot="R90"/>
+<instance part="L1L2" gate="G$1" x="-7.62" y="99.06" smashed="yes">
+<attribute name="NAME" x="-15.24" y="109.22" size="1.778" layer="95"/>
+<attribute name="VALUE" x="0" y="88.9" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X_11" gate="G$1" x="12.7" y="93.98" smashed="yes" rot="R90"/>
+<instance part="X_1" gate="G$1" x="12.7" y="73.66" smashed="yes" rot="R90"/>
+<instance part="X_2" gate="G$1" x="12.7" y="58.42" smashed="yes" rot="R90"/>
+<instance part="X_4" gate="G$1" x="134.62" y="104.14" smashed="yes" rot="R90"/>
+<instance part="X_5" gate="G$1" x="134.62" y="88.9" smashed="yes" rot="R90"/>
+<instance part="X_6" gate="G$1" x="134.62" y="73.66" smashed="yes" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="0" class="0">
+<segment>
+<pinref part="R_UVLO2" gate="G$1" pin="1"/>
+<pinref part="X_3" gate="G$1" pin="0"/>
+<wire x1="-66.04" y1="-43.18" x2="-66.04" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C_SS" gate="G$1" pin="2"/>
+<pinref part="X_9" gate="G$1" pin="0"/>
+<wire x1="60.96" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C_F" gate="G$1" pin="2"/>
+<pinref part="X_7" gate="G$1" pin="0"/>
+<wire x1="144.78" y1="-12.7" x2="152.4" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C_C" gate="G$1" pin="2"/>
+<pinref part="X_8" gate="G$1" pin="0"/>
+<wire x1="144.78" y1="5.08" x2="152.4" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R_T" gate="G$1" pin="2"/>
+<pinref part="X_10" gate="G$1" pin="0"/>
+<wire x1="66.04" y1="7.62" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X_11" gate="G$1" pin="0"/>
+<wire x1="12.7" y1="93.98" x2="5.08" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C_IN_2" gate="G$1" pin="2"/>
+<pinref part="X_1" gate="G$1" pin="0"/>
+<wire x1="5.08" y1="73.66" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C_IN_1" gate="G$1" pin="2"/>
+<pinref part="X_2" gate="G$1" pin="0"/>
+<wire x1="5.08" y1="58.42" x2="12.7" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C_OUT_1" gate="G$1" pin="2"/>
+<pinref part="X_4" gate="G$1" pin="0"/>
+<wire x1="127" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C_OUT_2" gate="G$1" pin="2"/>
+<pinref part="X_5" gate="G$1" pin="0"/>
+<wire x1="127" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C_OUT_3" gate="G$1" pin="2"/>
+<pinref part="X_6" gate="G$1" pin="0"/>
+<wire x1="127" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R_UVLO2" gate="G$1" pin="2"/>
+<pinref part="R_UVLO1" gate="G$1" pin="1"/>
+<wire x1="-66.04" y1="-25.4" x2="-66.04" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R_FAULT" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-22.86" x2="-43.18" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FAULT" class="0">
+<segment>
+<pinref part="R_FAULT" gate="G$1" pin="1"/>
+<wire x1="-43.18" y1="-43.18" x2="-43.18" y2="-48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="S"/>
+<wire x1="93.98" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C_OUT_1" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="121.92" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="121.92" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C_OUT_2" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="104.14" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="C_OUT_3" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="88.9" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="C_1" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="-10.16" y1="121.92" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="121.92" x2="10.16" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="121.92" x2="10.16" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="104.14" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R_C" gate="G$1" pin="2"/>
+<pinref part="C_C" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="5.08" x2="132.08" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="5.08" x2="129.54" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="5.08" x2="129.54" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="C_F" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="-12.7" x2="132.08" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<wire x1="-20.32" y1="104.14" x2="-30.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="104.14" x2="-30.48" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C_1" gate="G$1" pin="1"/>
+<wire x1="-30.48" y1="121.92" x2="-22.86" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<wire x1="-20.32" y1="93.98" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C_IN_2" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="73.66" x2="-30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="73.66" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C_IN_1" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="58.42" x2="-30.48" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="58.42" x2="-30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="93.98" x2="-40.64" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="K"/>
+<pinref part="U2" gate="G$1" pin="D"/>
+<wire x1="35.56" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R_FB" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="121.92" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="121.92" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R_GATE" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="104.14" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R_C" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="5.08" x2="99.06" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="RT"/>
+<pinref part="R_T" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="7.62" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="SS"/>
+<wire x1="17.78" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="10.16" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="C_SS" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R_GATE" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R_FB" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
