@@ -101,10 +101,10 @@
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
-<pin name="2" x="7.62" y="5.08" length="middle"/>
-<pin name="4" x="7.62" y="-5.08" length="middle"/>
-<pin name="1" x="-7.62" y="5.08" length="middle" rot="R180"/>
-<pin name="3" x="-7.62" y="-5.08" length="middle" rot="R180"/>
+<pin name="2" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="4" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="1" x="-12.7" y="5.08" length="middle"/>
+<pin name="3" x="-12.7" y="-5.08" length="middle"/>
 <text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>

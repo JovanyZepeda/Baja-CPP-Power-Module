@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1107,10 +1107,10 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/erm8-xxx-xx.x-xxx-dv-xxx
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
-<pin name="2" x="7.62" y="5.08" length="middle"/>
-<pin name="4" x="7.62" y="-5.08" length="middle"/>
-<pin name="1" x="-7.62" y="5.08" length="middle" rot="R180"/>
-<pin name="3" x="-7.62" y="-5.08" length="middle" rot="R180"/>
+<pin name="2" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="4" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="1" x="-12.7" y="5.08" length="middle"/>
+<pin name="3" x="-12.7" y="-5.08" length="middle"/>
 <text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
@@ -1215,7 +1215,7 @@ up to 125°C ambient.</description>
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="middle"/>
 <text x="-2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
@@ -2435,6 +2435,14 @@ up to 125°C ambient.</description>
 <wire x1="22.86" y1="-35.56" x2="22.86" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-45.72" x2="27.94" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="22.86" y="-35.56"/>
+<junction x="-22.86" y="-2.54"/>
+<junction x="-22.86" y="-5.08"/>
+<junction x="-22.86" y="-7.62"/>
+<junction x="-22.86" y="-10.16"/>
+<junction x="22.86" y="-10.16"/>
+<junction x="22.86" y="-7.62"/>
+<junction x="22.86" y="-5.08"/>
+<junction x="22.86" y="-2.54"/>
 </segment>
 <segment>
 <wire x1="-53.34" y1="104.14" x2="-63.5" y2="104.14" width="0.1524" layer="91"/>
@@ -2454,6 +2462,11 @@ up to 125°C ambient.</description>
 <wire x1="-83.82" y1="-7.62" x2="-76.2" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-25.4" x2="-83.82" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-83.82" y="-7.62"/>
+</segment>
+<segment>
+<pinref part="LT3579_IC_" gate="G$1" pin="SYNC"/>
+<wire x1="17.78" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
+<label x="25.4" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -2992,6 +3005,14 @@ up to 125°C ambient.</description>
 <wire x1="22.86" y1="-33.02" x2="22.86" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-43.18" x2="27.94" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="22.86" y="-33.02"/>
+<junction x="22.86" y="0"/>
+<junction x="22.86" y="-2.54"/>
+<junction x="22.86" y="-5.08"/>
+<junction x="22.86" y="-7.62"/>
+<junction x="-22.86" y="-7.62"/>
+<junction x="-22.86" y="-5.08"/>
+<junction x="-22.86" y="-2.54"/>
+<junction x="-22.86" y="0"/>
 </segment>
 <segment>
 <wire x1="-53.34" y1="106.68" x2="-63.5" y2="106.68" width="0.1524" layer="91"/>
@@ -3011,6 +3032,11 @@ up to 125°C ambient.</description>
 <wire x1="-83.82" y1="-5.08" x2="-76.2" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-22.86" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="-83.82" y="-5.08"/>
+</segment>
+<segment>
+<pinref part="LT3579_IC_1" gate="G$1" pin="SYNC"/>
+<wire x1="17.78" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<label x="25.4" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3549,6 +3575,14 @@ up to 125°C ambient.</description>
 <wire x1="22.86" y1="-33.02" x2="22.86" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-43.18" x2="27.94" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="22.86" y="-33.02"/>
+<junction x="-22.86" y="0"/>
+<junction x="-22.86" y="-2.54"/>
+<junction x="-22.86" y="-5.08"/>
+<junction x="-22.86" y="-7.62"/>
+<junction x="22.86" y="-7.62"/>
+<junction x="22.86" y="-5.08"/>
+<junction x="22.86" y="-2.54"/>
+<junction x="22.86" y="0"/>
 </segment>
 <segment>
 <wire x1="-53.34" y1="106.68" x2="-63.5" y2="106.68" width="0.1524" layer="91"/>
@@ -3568,6 +3602,11 @@ up to 125°C ambient.</description>
 <wire x1="-83.82" y1="-5.08" x2="-76.2" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-22.86" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="-83.82" y="-5.08"/>
+</segment>
+<segment>
+<pinref part="LT3579_IC_2" gate="G$1" pin="SYNC"/>
+<wire x1="17.78" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<label x="25.4" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN" class="0">
