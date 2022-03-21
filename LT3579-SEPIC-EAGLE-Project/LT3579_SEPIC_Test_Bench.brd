@@ -74,10 +74,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="-100" x2="300" y2="-100" width="0" layer="20"/>
-<wire x1="300" y1="-100" x2="300" y2="200" width="0" layer="20"/>
-<wire x1="300" y1="200" x2="0" y2="200" width="0" layer="20"/>
-<wire x1="0" y1="200" x2="0" y2="-100" width="0" layer="20"/>
+<wire x1="-0.4" y1="-60.45" x2="177.95" y2="-60.45" width="0" layer="20"/>
+<wire x1="177.95" y1="-60.45" x2="178.05" y2="121.9" width="0" layer="20"/>
+<wire x1="178.05" y1="121.9" x2="-0.3" y2="121.9" width="0" layer="20"/>
+<wire x1="-0.3" y1="121.9" x2="-0.4" y2="-60.45" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
