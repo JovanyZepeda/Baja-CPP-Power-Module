@@ -2459,9 +2459,15 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 <part name="C_DEC_CH_GND_1" library="SamacSys_Parts" deviceset="CGA4F4C0G2W222J085AE" device=""/>
 <part name="C_DEC_CH_GND_2" library="SamacSys_Parts" deviceset="CGADN3X7R1E476M230LE" device=""/>
 <part name="12P_OUTPUT_CONNECTOR1" library="SamacSys_Parts" deviceset="CLP-106-02-F-D" device=""/>
+<<<<<<< HEAD
 <part name="R_10K_F_" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
 <part name="R_5K_F_" library="SamacSys_Parts" deviceset="RT1206BRD075KL" device=""/>
 <part name="C_68N_F_" library="SamacSys_Parts" deviceset="CEU4J2X7R1H683K125AE" device=""/>
+=======
+<part name="R_10K_FILTER_" library="AC0805DR-0710KL" deviceset="AC0805DR-0710KL" device=""/>
+<part name="R_5K_FILTER_\" library="SamacSys_Parts" deviceset="RT1206BRD075KL" device=""/>
+<part name="C_68N_FILTER_" library="SamacSys_Parts" deviceset="CEU4J2X7R1H683K125AE" device=""/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <part name="X_65" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="TP_CLK_F_" library="S1751-46R" deviceset="S1751-46R" device=""/>
 <part name="R_LS_GATE_" library="AT0805FRE07100KL" deviceset="AT0805FRE07100KL" device=""/>
@@ -3021,6 +3027,7 @@ output voltage of the circuit. </text>
 <attribute name="NAME" x="-10.16" y="157.48" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-10.16" y="147.32" size="1.27" layer="96"/>
 </instance>
+<<<<<<< HEAD
 <instance part="R_10K_F_" gate="G$1" x="-172.72" y="106.68" smashed="yes">
 <attribute name="NAME" x="-182.884440625" y="109.22148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="-187.96996875" y="101.593359375" size="2.54331875" layer="96"/>
@@ -3030,11 +3037,26 @@ output voltage of the circuit. </text>
 <attribute name="VALUE" x="-143.51" y="102.87" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C_68N_F_" gate="G$1" x="-142.24" y="86.36" smashed="yes">
+=======
+<instance part="R_10K_FILTER_" gate="G$1" x="-172.72" y="106.68" smashed="yes">
+<attribute name="NAME" x="-182.884440625" y="109.22148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-187.96996875" y="101.593359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R_5K_FILTER_\" gate="G$1" x="-142.24" y="106.68" smashed="yes">
+<attribute name="NAME" x="-140.97" y="110.49" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-143.51" y="102.87" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C_68N_FILTER_" gate="G$1" x="-142.24" y="86.36" smashed="yes">
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <attribute name="NAME" x="-146.05" y="92.71" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-148.59" y="82.55" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="X_65" gate="G$1" x="-114.3" y="86.36" smashed="yes" rot="R90"/>
+<<<<<<< HEAD
 <instance part="TP_CLK_F_" gate="G$1" x="-137.16" y="71.12" smashed="yes">
+=======
+<instance part="TP_CLK_FILTER_" gate="G$1" x="-137.16" y="71.12" smashed="yes">
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <attribute name="NAME" x="-139.7" y="76.2" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-139.7" y="66.04" size="1.27" layer="96"/>
 </instance>
@@ -3429,6 +3451,7 @@ output voltage of the circuit. </text>
 <pinref part="C_OUT_3_" gate="G$1" pin="2"/>
 <pinref part="X_6" gate="G$1" pin="0"/>
 <wire x1="99.06" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
+<<<<<<< HEAD
 </segment>
 <segment>
 <pinref part="LT3579_IC_" gate="G$1" pin="EPAD"/>
@@ -3679,6 +3702,258 @@ output voltage of the circuit. </text>
 <junction x="-152.4" y="86.36"/>
 <junction x="-144.78" y="71.12"/>
 <junction x="-152.4" y="106.68"/>
+=======
+</segment>
+<segment>
+<pinref part="LT3579_IC_" gate="G$1" pin="EPAD"/>
+<pinref part="X_12" gate="G$1" pin="0"/>
+<wire x1="0" y1="-25.4" x2="0" y2="-30.48" width="0.1524" layer="91"/>
+<label x="2.54" y="-27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X_16" gate="G$1" pin="0"/>
+<wire x1="160.02" y1="-12.7" x2="154.94" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="TP_GND1_" gate="G$1" pin="1"/>
+<junction x="160.02" y="-12.7"/>
+</segment>
+<segment>
+<pinref part="X_15" gate="G$1" pin="0"/>
+<wire x1="160.02" y1="-27.94" x2="154.94" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="TP_GND2_" gate="G$1" pin="1"/>
+<junction x="160.02" y="-27.94"/>
+</segment>
+<segment>
+<pinref part="X_14" gate="G$1" pin="0"/>
+<wire x1="160.02" y1="-43.18" x2="154.94" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="TP_GND3_" gate="G$1" pin="1"/>
+<junction x="160.02" y="-43.18"/>
+</segment>
+<segment>
+<pinref part="X_13" gate="G$1" pin="0"/>
+<wire x1="160.02" y1="-58.42" x2="154.94" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="TP_GND4_" gate="G$1" pin="1"/>
+<junction x="160.02" y="-58.42"/>
+</segment>
+<segment>
+<pinref part="C_68N_FILTER_" gate="G$1" pin="2"/>
+<wire x1="-129.54" y1="86.36" x2="-119.38" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="X_65" gate="G$1" pin="0"/>
+<pinref part="R_5K_FILTER_\" gate="G$1" pin="2"/>
+<wire x1="-119.38" y1="86.36" x2="-114.3" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="106.68" x2="-119.38" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="106.68" x2="-119.38" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-119.38" y="86.36"/>
+<label x="-119.38" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C_LS_" gate="G$1" pin="2"/>
+<pinref part="X_53" gate="G$1" pin="0"/>
+<wire x1="-86.36" y1="-2.54" x2="-68.58" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED_" gate="G$1" pin="K"/>
+<pinref part="X_59" gate="G$1" pin="0"/>
+<wire x1="213.36" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="NMOS_LDO_" gate="G$1" pin="S"/>
+<wire x1="-142.24" y1="17.78" x2="-149.86" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="X_52" gate="G$1" pin="0"/>
+</segment>
+</net>
+<net name="VIN" class="4">
+<segment>
+<wire x1="-53.34" y1="109.22" x2="-63.5" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C_IN_2_" gate="G$1" pin="1"/>
+<wire x1="-48.26" y1="88.9" x2="-63.5" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="88.9" x2="-63.5" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C_IN_1_" gate="G$1" pin="1"/>
+<wire x1="-48.26" y1="73.66" x2="-63.5" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="73.66" x2="-63.5" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="109.22" x2="-73.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="-81.28" y="109.22" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="73.66" x2="-63.5" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="60.96" x2="-50.8" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-63.5" y="73.66"/>
+<junction x="-63.5" y="88.9"/>
+<junction x="-63.5" y="109.22"/>
+<pinref part="L1L2_" gate="G$1" pin="3"/>
+<pinref part="TP_IN_" gate="G$1" pin="1"/>
+<junction x="-50.8" y="60.96"/>
+</segment>
+<segment>
+<pinref part="LT3579_IC_" gate="G$1" pin="VIN"/>
+<wire x1="-17.78" y1="2.54" x2="-25.4" y2="2.54" width="0.1524" layer="91"/>
+<label x="-31.75" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R_FAULT_" gate="G$1" pin="2"/>
+<wire x1="77.47" y1="40.64" x2="69.85" y2="40.64" width="0.1524" layer="91"/>
+<label x="62.23" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R_UVLO1_" gate="G$1" pin="2"/>
+<wire x1="-34.29" y1="-78.74" x2="-44.45" y2="-78.74" width="0.1524" layer="91"/>
+<label x="-52.07" y="-78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LDO_" gate="G$1" pin="VIN"/>
+<wire x1="-190.5" y1="-63.5" x2="-195.58" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="C_LDO_IN_" gate="G$1" pin="1"/>
+<wire x1="-195.58" y1="-63.5" x2="-195.58" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="-76.2" x2="-195.58" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="-86.36" x2="-180.34" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="-76.2" x2="-180.34" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-180.34" y="-76.2" size="1.778" layer="95"/>
+<junction x="-195.58" y="-76.2"/>
+</segment>
+</net>
+<net name="CH_GND" class="2">
+<segment>
+<pinref part="R_SHUNT_GND_" gate="G$1" pin="1"/>
+<wire x1="-121.92" y1="-78.74" x2="-124.46" y2="-78.74" width="0.1524" layer="91"/>
+<label x="-134.62" y="-78.74" size="1.778" layer="95"/>
+<wire x1="-124.46" y1="-78.74" x2="-127" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="-96.52" x2="-124.46" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-96.52" x2="-124.46" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="-124.46" y="-78.74"/>
+<pinref part="TP_CH_GND_" gate="G$1" pin="1"/>
+<junction x="-121.92" y="-96.52"/>
+</segment>
+<segment>
+<pinref part="C_LDO_IN_" gate="G$1" pin="2"/>
+<pinref part="X_50" gate="G$1" pin="0"/>
+<wire x1="-167.64" y1="-86.36" x2="-160.02" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-162.56" y="-81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LDO_" gate="G$1" pin="GND"/>
+<wire x1="-190.5" y1="-58.42" x2="-195.58" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-208.28" y="-58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C_LDO_OUT_" gate="G$1" pin="2"/>
+<pinref part="X_49" gate="G$1" pin="0"/>
+<wire x1="-167.64" y1="-38.1" x2="-160.02" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-162.56" y="-35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLK_" class="3">
+<segment>
+<pinref part="LT3579_IC_" gate="G$1" pin="CLKOUT"/>
+<wire x1="17.78" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<label x="25.4" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="160.02" y1="10.16" x2="154.94" y2="10.16" width="0.1524" layer="91"/>
+<label x="147.32" y="10.16" size="1.778" layer="95"/>
+<pinref part="TP_CLK_" gate="G$1" pin="1"/>
+<junction x="160.02" y="10.16"/>
+</segment>
+<segment>
+<pinref part="R_10K_FILTER_" gate="G$1" pin="1"/>
+<wire x1="-182.88" y1="106.68" x2="-195.58" y2="106.68" width="0.1524" layer="91"/>
+<label x="-203.2" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$4" class="3">
+<segment>
+<pinref part="R_C_" gate="G$1" pin="2"/>
+<pinref part="C_C_" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="-99.06" x2="96.52" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CLK_FILTER_OUT_" class="3">
+<segment>
+<pinref part="R_10K_FILTER_" gate="G$1" pin="2"/>
+<pinref part="R_5K_FILTER_\" gate="G$1" pin="1"/>
+<wire x1="-162.56" y1="106.68" x2="-152.4" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C_68N_FILTER_" gate="G$1" pin="1"/>
+<wire x1="-152.4" y1="106.68" x2="-142.24" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="86.36" x2="-152.4" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="86.36" x2="-152.4" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="106.68" x2="-152.4" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="121.92" x2="-142.24" y2="121.92" width="0.1524" layer="91"/>
+<label x="-142.24" y="121.92" size="1.778" layer="95"/>
+<wire x1="-152.4" y1="86.36" x2="-152.4" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="TP_CLK_FILTER_" gate="G$1" pin="1"/>
+<wire x1="-152.4" y1="71.12" x2="-144.78" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-152.4" y="86.36"/>
+<junction x="-144.78" y="71.12"/>
+<junction x="-152.4" y="106.68"/>
+</segment>
+</net>
+<net name="LDO_OUT_" class="2">
+<segment>
+<pinref part="LDO_" gate="G$1" pin="VOUT_1"/>
+<wire x1="-190.5" y1="-60.96" x2="-210.82" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="C_LDO_OUT_" gate="G$1" pin="1"/>
+<wire x1="-210.82" y1="-60.96" x2="-210.82" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="-45.72" x2="-210.82" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="-38.1" x2="-180.34" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="-38.1" x2="-210.82" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="-12.7" x2="-177.8" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-210.82" y="-38.1"/>
+<label x="-177.8" y="-12.7" size="1.778" layer="95"/>
+<wire x1="-210.82" y1="-12.7" x2="-210.82" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="TP_LDO_OUT_" gate="G$1" pin="1"/>
+<wire x1="-210.82" y1="-25.4" x2="-180.34" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="LDO_" gate="G$1" pin="VOUT_2"/>
+<wire x1="-157.48" y1="-58.42" x2="-152.4" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="-58.42" x2="-152.4" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="-45.72" x2="-210.82" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="-210.82" y="-45.72"/>
+<junction x="-210.82" y="-25.4"/>
+<junction x="-210.82" y="-12.7"/>
+<junction x="-180.34" y="-25.4"/>
+</segment>
+<segment>
+<pinref part="R_LS_DRAIN_" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="15.24" x2="-68.58" y2="15.24" width="0.1524" layer="91"/>
+<label x="-68.58" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FAULT_LS_OUT_" class="3">
+<segment>
+<pinref part="R_LS_DRAIN_" gate="G$1" pin="1"/>
+<wire x1="-101.6" y1="15.24" x2="-99.06" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="15.24" x2="-101.6" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C_LS_" gate="G$1" pin="1"/>
+<wire x1="-101.6" y1="-2.54" x2="-99.06" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-2.54" x2="-101.6" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-15.24" x2="-93.98" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-93.98" y="-15.24" size="1.778" layer="95"/>
+<wire x1="-101.6" y1="-15.24" x2="-101.6" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="TP_FAULT_LS_" gate="G$1" pin="1"/>
+<wire x1="-101.6" y1="-27.94" x2="-99.06" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-101.6" y="-15.24"/>
+<junction x="-101.6" y="-2.54"/>
+<junction x="-99.06" y="-27.94"/>
+<pinref part="NMOS_LDO_" gate="G$1" pin="D"/>
+<wire x1="-121.92" y1="15.24" x2="-101.6" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-101.6" y="15.24"/>
+</segment>
+</net>
+<net name="N$12" class="3">
+<segment>
+<pinref part="R_20K_LED1_" gate="G$1" pin="1"/>
+<pinref part="R_5.6K_LED2_" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="3">
+<segment>
+<pinref part="R_5.6K_LED2_" gate="G$1" pin="2"/>
+<pinref part="LED_" gate="G$1" pin="A"/>
+<wire x1="190.5" y1="114.3" x2="198.12" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="3">
+<segment>
+<pinref part="R_LS_GATE_" gate="G$1" pin="2"/>
+<wire x1="-165.1" y1="15.24" x2="-142.24" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="NMOS_LDO_" gate="G$1" pin="G"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 </segment>
 </net>
 </nets>
@@ -3967,6 +4242,7 @@ GATE pin turns off or on the PMOS. </text>
 <attribute name="NAME" x="-96.52" y="-17.78" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-96.52" y="-27.94" size="1.27" layer="96"/>
 </instance>
+<<<<<<< HEAD
 <instance part="R_10K_F_1" gate="G$1" x="-165.1" y="109.22" smashed="yes">
 <attribute name="NAME" x="-175.264440625" y="111.76148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="-180.34996875" y="104.133359375" size="2.54331875" layer="96"/>
@@ -3976,11 +4252,26 @@ GATE pin turns off or on the PMOS. </text>
 <attribute name="VALUE" x="-135.89" y="105.41" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C_68N_F_1" gate="G$1" x="-134.62" y="88.9" smashed="yes">
+=======
+<instance part="R_10K_FILTER_1" gate="G$1" x="-165.1" y="109.22" smashed="yes">
+<attribute name="NAME" x="-175.264440625" y="111.76148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-180.34996875" y="104.133359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R_5K_FILTER_\1" gate="G$1" x="-134.62" y="109.22" smashed="yes">
+<attribute name="NAME" x="-133.35" y="113.03" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-135.89" y="105.41" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C_68N_FILTER_1" gate="G$1" x="-134.62" y="88.9" smashed="yes">
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <attribute name="NAME" x="-138.43" y="95.25" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-140.97" y="85.09" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="X_64" gate="G$1" x="-106.68" y="88.9" smashed="yes" rot="R90"/>
+<<<<<<< HEAD
 <instance part="TP_CLK_F_1" gate="G$1" x="-129.54" y="73.66" smashed="yes">
+=======
+<instance part="TP_CLK_FILTER_1" gate="G$1" x="-129.54" y="73.66" smashed="yes">
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <attribute name="NAME" x="-132.08" y="78.74" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-132.08" y="68.58" size="1.27" layer="96"/>
 </instance>
@@ -4379,10 +4670,17 @@ GATE pin turns off or on the PMOS. </text>
 <wire x1="-88.9" y1="2.54" x2="-71.12" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<<<<<<< HEAD
 <pinref part="C_68N_F_1" gate="G$1" pin="2"/>
 <wire x1="-121.92" y1="88.9" x2="-111.76" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="X_64" gate="G$1" pin="0"/>
 <pinref part="R_5K_F_1" gate="G$1" pin="2"/>
+=======
+<pinref part="C_68N_FILTER_1" gate="G$1" pin="2"/>
+<wire x1="-121.92" y1="88.9" x2="-111.76" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="X_64" gate="G$1" pin="0"/>
+<pinref part="R_5K_FILTER_\1" gate="G$1" pin="2"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <wire x1="-111.76" y1="88.9" x2="-106.68" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="109.22" x2="-111.76" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="109.22" x2="-111.76" y2="88.9" width="0.1524" layer="91"/>
@@ -4462,7 +4760,11 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="162.56" y="10.16"/>
 </segment>
 <segment>
+<<<<<<< HEAD
 <pinref part="R_10K_F_1" gate="G$1" pin="1"/>
+=======
+<pinref part="R_10K_FILTER_1" gate="G$1" pin="1"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <wire x1="-175.26" y1="109.22" x2="-187.96" y2="109.22" width="0.1524" layer="91"/>
 <label x="-198.12" y="109.22" size="1.778" layer="95"/>
 </segment>
@@ -4490,10 +4792,17 @@ GATE pin turns off or on the PMOS. </text>
 </net>
 <net name="CLK_FILTER_OUT_1" class="3">
 <segment>
+<<<<<<< HEAD
 <pinref part="R_10K_F_1" gate="G$1" pin="2"/>
 <pinref part="R_5K_F_1" gate="G$1" pin="1"/>
 <wire x1="-154.94" y1="109.22" x2="-144.78" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C_68N_F_1" gate="G$1" pin="1"/>
+=======
+<pinref part="R_10K_FILTER_1" gate="G$1" pin="2"/>
+<pinref part="R_5K_FILTER_\1" gate="G$1" pin="1"/>
+<wire x1="-154.94" y1="109.22" x2="-144.78" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C_68N_FILTER_1" gate="G$1" pin="1"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <wire x1="-144.78" y1="109.22" x2="-134.62" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="88.9" x2="-144.78" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="88.9" x2="-144.78" y2="109.22" width="0.1524" layer="91"/>
@@ -4501,7 +4810,11 @@ GATE pin turns off or on the PMOS. </text>
 <wire x1="-144.78" y1="124.46" x2="-134.62" y2="124.46" width="0.1524" layer="91"/>
 <label x="-134.62" y="124.46" size="1.778" layer="95"/>
 <wire x1="-144.78" y1="88.9" x2="-144.78" y2="73.66" width="0.1524" layer="91"/>
+<<<<<<< HEAD
 <pinref part="TP_CLK_F_1" gate="G$1" pin="1"/>
+=======
+<pinref part="TP_CLK_FILTER_1" gate="G$1" pin="1"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <wire x1="-144.78" y1="73.66" x2="-137.16" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-144.78" y="88.9"/>
 <junction x="-137.16" y="73.66"/>
@@ -4815,6 +5128,7 @@ GATE pin turns off or on the PMOS. </text>
 <attribute name="NAME" x="-96.52" y="-17.78" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-96.52" y="-27.94" size="1.27" layer="96"/>
 </instance>
+<<<<<<< HEAD
 <instance part="R_10K_F_2" gate="G$1" x="-172.72" y="101.6" smashed="yes">
 <attribute name="NAME" x="-182.884440625" y="104.14148125" size="2.54148125" layer="95"/>
 <attribute name="VALUE" x="-187.96996875" y="96.513359375" size="2.54331875" layer="96"/>
@@ -4824,11 +5138,26 @@ GATE pin turns off or on the PMOS. </text>
 <attribute name="VALUE" x="-143.51" y="97.79" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C_68N_F_2" gate="G$1" x="-142.24" y="81.28" smashed="yes">
+=======
+<instance part="R_10K_FILTER_2" gate="G$1" x="-172.72" y="101.6" smashed="yes">
+<attribute name="NAME" x="-182.884440625" y="104.14148125" size="2.54148125" layer="95"/>
+<attribute name="VALUE" x="-187.96996875" y="96.513359375" size="2.54331875" layer="96"/>
+</instance>
+<instance part="R_5K_FILTER_\2" gate="G$1" x="-142.24" y="101.6" smashed="yes">
+<attribute name="NAME" x="-140.97" y="105.41" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-143.51" y="97.79" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C_68N_FILTER_2" gate="G$1" x="-142.24" y="81.28" smashed="yes">
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <attribute name="NAME" x="-146.05" y="87.63" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-148.59" y="77.47" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="X_66" gate="G$1" x="-114.3" y="81.28" smashed="yes" rot="R90"/>
+<<<<<<< HEAD
 <instance part="TP_CLK_F_2" gate="G$1" x="-137.16" y="66.04" smashed="yes">
+=======
+<instance part="TP_CLK_FILTER_2" gate="G$1" x="-137.16" y="66.04" smashed="yes">
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <attribute name="NAME" x="-139.7" y="71.12" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-139.7" y="60.96" size="1.27" layer="96"/>
 </instance>
@@ -5225,10 +5554,17 @@ GATE pin turns off or on the PMOS. </text>
 <wire x1="-88.9" y1="2.54" x2="-71.12" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<<<<<<< HEAD
 <pinref part="C_68N_F_2" gate="G$1" pin="2"/>
 <wire x1="-129.54" y1="81.28" x2="-119.38" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="X_66" gate="G$1" pin="0"/>
 <pinref part="R_5K_F_2" gate="G$1" pin="2"/>
+=======
+<pinref part="C_68N_FILTER_2" gate="G$1" pin="2"/>
+<wire x1="-129.54" y1="81.28" x2="-119.38" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="X_66" gate="G$1" pin="0"/>
+<pinref part="R_5K_FILTER_\2" gate="G$1" pin="2"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <wire x1="-119.38" y1="81.28" x2="-114.3" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="101.6" x2="-119.38" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="101.6" x2="-119.38" y2="81.28" width="0.1524" layer="91"/>
@@ -5308,7 +5644,11 @@ GATE pin turns off or on the PMOS. </text>
 <junction x="160.02" y="10.16"/>
 </segment>
 <segment>
+<<<<<<< HEAD
 <pinref part="R_10K_F_2" gate="G$1" pin="1"/>
+=======
+<pinref part="R_10K_FILTER_2" gate="G$1" pin="1"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <wire x1="-182.88" y1="101.6" x2="-195.58" y2="101.6" width="0.1524" layer="91"/>
 <label x="-205.74" y="101.6" size="1.778" layer="95"/>
 </segment>
@@ -5336,10 +5676,17 @@ GATE pin turns off or on the PMOS. </text>
 </net>
 <net name="CLK_FILTER_OUT_2" class="3">
 <segment>
+<<<<<<< HEAD
 <pinref part="R_10K_F_2" gate="G$1" pin="2"/>
 <pinref part="R_5K_F_2" gate="G$1" pin="1"/>
 <wire x1="-162.56" y1="101.6" x2="-152.4" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C_68N_F_2" gate="G$1" pin="1"/>
+=======
+<pinref part="R_10K_FILTER_2" gate="G$1" pin="2"/>
+<pinref part="R_5K_FILTER_\2" gate="G$1" pin="1"/>
+<wire x1="-162.56" y1="101.6" x2="-152.4" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C_68N_FILTER_2" gate="G$1" pin="1"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <wire x1="-152.4" y1="101.6" x2="-142.24" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="81.28" x2="-152.4" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="81.28" x2="-152.4" y2="101.6" width="0.1524" layer="91"/>
@@ -5347,7 +5694,11 @@ GATE pin turns off or on the PMOS. </text>
 <wire x1="-152.4" y1="116.84" x2="-142.24" y2="116.84" width="0.1524" layer="91"/>
 <label x="-142.24" y="116.84" size="1.778" layer="95"/>
 <wire x1="-152.4" y1="81.28" x2="-152.4" y2="66.04" width="0.1524" layer="91"/>
+<<<<<<< HEAD
 <pinref part="TP_CLK_F_2" gate="G$1" pin="1"/>
+=======
+<pinref part="TP_CLK_FILTER_2" gate="G$1" pin="1"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <wire x1="-152.4" y1="66.04" x2="-144.78" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-152.4" y="81.28"/>
 <junction x="-144.78" y="66.04"/>
@@ -5396,6 +5747,7 @@ GATE pin turns off or on the PMOS. </text>
 <approved hash="102,2,154.94,-27.94,0,GND_,,,,"/>
 <approved hash="102,2,154.94,-12.7,0,GND_,,,,"/>
 <approved hash="102,2,-114.3,86.36,0,GND_,,,,"/>
+<<<<<<< HEAD
 <approved hash="102,2,-160.02,-38.1,0,CH_GND,,,,"/>
 <approved hash="102,2,-160.02,-86.36,0,CH_GND,,,,"/>
 <approved hash="102,2,-149.86,17.78,0,GND_,,,,"/>
@@ -5423,6 +5775,13 @@ GATE pin turns off or on the PMOS. </text>
 <approved hash="201,2,120.65,-99.06,0,GND_\, CH_GND,,,,"/>
 <approved hash="201,2,118.11,-116.84,0,GND_\, CH_GND,,,,"/>
 <approved hash="201,2,24.13,-78.74,0,GND_\, CH_GND,,,,"/>
+=======
+<approved hash="102,2,-160.02,-38.1,0,GND_,,,,"/>
+<approved hash="102,2,-160.02,-86.36,0,GND_,,,,"/>
+<approved hash="102,2,-149.86,17.78,0,GND_,,,,"/>
+<approved hash="102,2,-68.58,-2.54,0,GND_,,,,"/>
+<approved hash="102,2,220.98,114.3,0,GND_,,,,"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <approved hash="102,3,8.89,-58.42,0,GND_1,,,,"/>
 <approved hash="102,3,123.19,-124.46,0,GND_1,,,,"/>
 <approved hash="102,3,123.19,-106.68,0,GND_1,,,,"/>
@@ -5463,7 +5822,11 @@ GATE pin turns off or on the PMOS. </text>
 <approved hash="102,4,-71.12,2.54,0,GND_2,,,,"/>
 <approved hash="102,4,-114.3,81.28,0,GND_2,,,,"/>
 <approved hash="102,4,180.34,106.68,0,GND_2,,,,"/>
+<<<<<<< HEAD
 <approved hash="104,2,-190.5,-58.42,LDO_,GND,CH_GND,,,"/>
+=======
+<approved hash="104,2,-190.5,-58.42,LDO_,GND,GND_,,,"/>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <approved hash="206,2,-190.5,-60.96,LDO_OUT_,,,,,"/>
 <approved hash="206,2,-157.48,-58.42,LDO_OUT_,,,,,"/>
 </errors>

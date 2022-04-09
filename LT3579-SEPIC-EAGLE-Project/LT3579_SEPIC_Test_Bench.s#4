@@ -3376,6 +3376,14 @@ output voltage of the circuit. </text>
 <label x="25.4" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
+<<<<<<< HEAD
+=======
+<pinref part="LDO_" gate="G$1" pin="GND"/>
+<wire x1="-190.5" y1="-58.42" x2="-195.58" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-200.66" y="-58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <pinref part="R_UVLO2_" gate="G$1" pin="1"/>
 <pinref part="X_3" gate="G$1" pin="0"/>
 <wire x1="16.51" y1="-78.74" x2="24.13" y2="-78.74" width="0.1524" layer="91"/>

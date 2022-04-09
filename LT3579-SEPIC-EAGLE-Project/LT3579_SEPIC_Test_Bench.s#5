@@ -2284,7 +2284,11 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 </class>
 <class number="2" name="PWR_Vin_Vout" width="0.816" drill="0">
 </class>
+<<<<<<< HEAD
 <class number="3" name="Signal" width="0.381" drill="0">
+=======
+<class number="3" name="Signal" width="0.0463" drill="0">
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 </class>
 <class number="4" name="PWR_Vin" width="0.0463" drill="0">
 </class>
@@ -2553,7 +2557,11 @@ Will mate with a male connector on the board enclosure. </text>
 <wire x1="7.62" y1="48.26" x2="-30.48" y2="48.26" width="0.1524" layer="94"/>
 <text x="-66.04" y="-66.04" size="1.778" layer="97">Holes for mounting board to enclosures.
 
+<<<<<<< HEAD
 For bolt size of 1/16"</text>
+=======
+For bolt size of 0.12"</text>
+>>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <wire x1="-68.58" y1="-55.88" x2="-68.58" y2="-71.12" width="0.1524" layer="94"/>
 <wire x1="-68.58" y1="-71.12" x2="-20.32" y2="-71.12" width="0.1524" layer="94"/>
 <wire x1="-20.32" y1="-71.12" x2="-20.32" y2="-55.88" width="0.1524" layer="94"/>
