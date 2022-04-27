@@ -389,6 +389,20 @@
 <smd name="4" x="-2.625" y="-1.905" dx="1.58" dy="0.59" layer="1" roundness="25"/>
 <smd name="5" x="2.625" y="-1.905" dx="1.58" dy="0.59" layer="1" roundness="25" rot="R180"/>
 </package>
+<package name="RESC6432X55N">
+<text x="-3.93" y="-2.08" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.93" y="2.08" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="3.33" y1="-1.73" x2="-3.33" y2="-1.73" width="0.127" layer="51"/>
+<wire x1="3.33" y1="1.73" x2="-3.33" y2="1.73" width="0.127" layer="51"/>
+<wire x1="3.33" y1="-1.73" x2="3.33" y2="1.73" width="0.127" layer="51"/>
+<wire x1="-3.33" y1="-1.73" x2="-3.33" y2="1.73" width="0.127" layer="51"/>
+<wire x1="-3.931" y1="-1.981" x2="3.931" y2="-1.981" width="0.05" layer="39"/>
+<wire x1="-3.931" y1="1.981" x2="3.931" y2="1.981" width="0.05" layer="39"/>
+<wire x1="-3.931" y1="-1.981" x2="-3.931" y2="1.981" width="0.05" layer="39"/>
+<wire x1="3.931" y1="-1.981" x2="3.931" y2="1.981" width="0.05" layer="39"/>
+<smd name="1" x="-1.956" y="0" dx="3.45" dy="3.46" layer="1"/>
+<smd name="2" x="1.956" y="0" dx="3.45" dy="3.46" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CLP-106-02-F-D">
@@ -748,6 +762,21 @@
 <text x="4.064" y="-4.064" size="1.27" layer="97">D</text>
 <text x="-2.54" y="0" size="1.27" layer="97">G</text>
 <text x="4.064" y="3.556" size="1.27" layer="97">S</text>
+</symbol>
+<symbol name="GMR100HTCFAR100">
+<wire x1="-5.08" y1="0" x2="-4.445" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-1.905" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.624440625" y="2.54148125" size="2.54148125" layer="95">&gt;NAME</text>
+<text x="-7.62996875" y="-5.086640625" size="2.54331875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1408,6 +1437,31 @@ Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-
 <attribute name="PACKAGE" value="SO-8 Diodes Inc."/>
 <attribute name="PRICE" value="None"/>
 <attribute name="PURCHASE-URL" value="https://www.mouser.com/ProductDetail/Diodes-Incorporated/DMP3015LSSQ-13?qs=NnBbvHfz1MmNJej%2FFBJXWg%3D%3D"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GMR100HTCFAR100" prefix="R">
+<description>Res 2512 0.1 Ohm 1% 3W ±20ppm/C Pad SMD Automotive T/R &lt;a href="https://pricing.snapeda.com/parts/GMR100HTCFAR100/Rohm/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="GMR100HTCFAR100" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC6432X55N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 100 mOhms ±1% 7W Chip Resistor 2512 (6432 Metric) Automotive AEC-Q200 Metal Element "/>
+<attribute name="MF" value="Rohm"/>
+<attribute name="MP" value="GMR100HTCFAR100"/>
+<attribute name="PACKAGE" value="6432 Rohm Semiconductor"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GMR100HTCFAR100/?ref=eda"/>
 </technology>
 </technologies>
 </device>

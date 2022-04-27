@@ -2284,7 +2284,7 @@ Safety Diameter of 0.25" so that washer does not damage board.</description>
 </class>
 <class number="2" name="PWR_Vin_Vout" width="0.816" drill="0">
 </class>
-<class number="3" name="Signal" width="0.0463" drill="0">
+<class number="3" name="Signal" width="0.381" drill="0">
 </class>
 <class number="4" name="PWR_Vin" width="0.0463" drill="0">
 </class>
@@ -2553,7 +2553,7 @@ Will mate with a male connector on the board enclosure. </text>
 <wire x1="7.62" y1="48.26" x2="-30.48" y2="48.26" width="0.1524" layer="94"/>
 <text x="-66.04" y="-66.04" size="1.778" layer="97">Holes for mounting board to enclosures.
 
-For bolt size of 0.12"</text>
+For bolt size of 1/16"</text>
 <wire x1="-68.58" y1="-55.88" x2="-68.58" y2="-71.12" width="0.1524" layer="94"/>
 <wire x1="-68.58" y1="-71.12" x2="-20.32" y2="-71.12" width="0.1524" layer="94"/>
 <wire x1="-20.32" y1="-71.12" x2="-20.32" y2="-55.88" width="0.1524" layer="94"/>
@@ -3359,11 +3359,7 @@ output voltage of the circuit. </text>
 <pinref part="L1L2_" gate="G$1" pin="1"/>
 </segment>
 </net>
-<<<<<<< HEAD
 <net name="GND_" class="0">
-=======
-<net name="GND" class="1">
->>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <segment>
 <pinref part="R_SHUNT_GND_" gate="G$1" pin="2"/>
 <label x="-76.2" y="-78.74" size="1.778" layer="95"/>
@@ -3378,11 +3374,6 @@ output voltage of the circuit. </text>
 <pinref part="LT3579_IC_" gate="G$1" pin="SYNC"/>
 <wire x1="17.78" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
 <label x="25.4" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LDO_" gate="G$1" pin="GND"/>
-<wire x1="-190.5" y1="-58.42" x2="-195.58" y2="-58.42" width="0.1524" layer="91"/>
-<label x="-200.66" y="-58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R_UVLO2_" gate="G$1" pin="1"/>
@@ -3478,20 +3469,7 @@ output voltage of the circuit. </text>
 <wire x1="-124.46" y1="106.68" x2="-119.38" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="106.68" x2="-119.38" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-119.38" y="86.36"/>
-<<<<<<< HEAD
 <label x="-119.38" y="91.44" size="1.778" layer="95"/>
-=======
->>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
-</segment>
-<segment>
-<pinref part="C_LDO_IN_" gate="G$1" pin="2"/>
-<pinref part="X_50" gate="G$1" pin="0"/>
-<wire x1="-167.64" y1="-86.36" x2="-160.02" y2="-86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C_LDO_OUT_" gate="G$1" pin="2"/>
-<pinref part="X_49" gate="G$1" pin="0"/>
-<wire x1="-167.64" y1="-38.1" x2="-160.02" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C_LS_" gate="G$1" pin="2"/>
@@ -3567,6 +3545,23 @@ output voltage of the circuit. </text>
 <junction x="-124.46" y="-78.74"/>
 <pinref part="TP_CH_GND_" gate="G$1" pin="1"/>
 <junction x="-121.92" y="-96.52"/>
+</segment>
+<segment>
+<pinref part="C_LDO_IN_" gate="G$1" pin="2"/>
+<pinref part="X_50" gate="G$1" pin="0"/>
+<wire x1="-167.64" y1="-86.36" x2="-160.02" y2="-86.36" width="0.1524" layer="91"/>
+<label x="-162.56" y="-81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LDO_" gate="G$1" pin="GND"/>
+<wire x1="-190.5" y1="-58.42" x2="-195.58" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-208.28" y="-58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C_LDO_OUT_" gate="G$1" pin="2"/>
+<pinref part="X_49" gate="G$1" pin="0"/>
+<wire x1="-167.64" y1="-38.1" x2="-160.02" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-162.56" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CLK_" class="3">
@@ -4278,11 +4273,7 @@ GATE pin turns off or on the PMOS. </text>
 <pinref part="L1L2_1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<<<<<<< HEAD
 <net name="GND_1" class="0">
-=======
-<net name="GND" class="1">
->>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <segment>
 <pinref part="R_SHUNT_GND_1" gate="G$1" pin="2"/>
 <label x="-104.14" y="-60.96" size="1.778" layer="95"/>
@@ -4396,10 +4387,7 @@ GATE pin turns off or on the PMOS. </text>
 <wire x1="-116.84" y1="109.22" x2="-111.76" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="109.22" x2="-111.76" y2="88.9" width="0.1524" layer="91"/>
 <junction x="-111.76" y="88.9"/>
-<<<<<<< HEAD
 <label x="-111.76" y="93.98" size="1.778" layer="95"/>
-=======
->>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 </segment>
 <segment>
 <pinref part="LED_1" gate="G$1" pin="K"/>
@@ -5131,11 +5119,7 @@ GATE pin turns off or on the PMOS. </text>
 <pinref part="L1L2_2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<<<<<<< HEAD
 <net name="GND_2" class="0">
-=======
-<net name="GND" class="1">
->>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <segment>
 <pinref part="R_SHUNT_GND_2" gate="G$1" pin="2"/>
 <label x="-83.82" y="-58.42" size="1.778" layer="95"/>
@@ -5249,10 +5233,7 @@ GATE pin turns off or on the PMOS. </text>
 <wire x1="-124.46" y1="101.6" x2="-119.38" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="101.6" x2="-119.38" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-119.38" y="81.28"/>
-<<<<<<< HEAD
 <label x="-116.84" y="86.36" size="1.778" layer="95"/>
-=======
->>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 </segment>
 <segment>
 <pinref part="LED_2" gate="G$1" pin="K"/>
@@ -5398,7 +5379,6 @@ GATE pin turns off or on the PMOS. </text>
 </sheet>
 </sheets>
 <errors>
-<<<<<<< HEAD
 <approved hash="102,2,24.13,-78.74,0,GND_,,,,"/>
 <approved hash="102,2,118.11,-116.84,0,GND_,,,,"/>
 <approved hash="102,2,120.65,-99.06,0,GND_,,,,"/>
@@ -5462,70 +5442,6 @@ GATE pin turns off or on the PMOS. </text>
 <approved hash="102,4,-114.3,81.28,0,GND_2,,,,"/>
 <approved hash="102,4,180.34,106.68,0,GND_2,,,,"/>
 <approved hash="104,2,-190.5,-58.42,LDO_,GND,GND_,,,"/>
-=======
-<approved hash="102,2,24.13,-78.74,0,GND,,,,"/>
-<approved hash="102,2,118.11,-116.84,0,GND,,,,"/>
-<approved hash="102,2,120.65,-99.06,0,GND,,,,"/>
-<approved hash="102,2,107.95,-10.16,0,GND,,,,"/>
-<approved hash="102,2,107.95,-53.34,0,GND,,,,"/>
-<approved hash="102,2,-20.32,109.22,0,GND,,,,"/>
-<approved hash="102,2,-20.32,88.9,0,GND,,,,"/>
-<approved hash="102,2,-20.32,73.66,0,GND,,,,"/>
-<approved hash="102,2,106.68,119.38,0,GND,,,,"/>
-<approved hash="102,2,106.68,104.14,0,GND,,,,"/>
-<approved hash="102,2,106.68,88.9,0,GND,,,,"/>
-<approved hash="102,2,0,-30.48,0,GND,,,,"/>
-<approved hash="102,2,154.94,-58.42,0,GND,,,,"/>
-<approved hash="102,2,154.94,-43.18,0,GND,,,,"/>
-<approved hash="102,2,154.94,-27.94,0,GND,,,,"/>
-<approved hash="102,2,154.94,-12.7,0,GND,,,,"/>
-<approved hash="102,2,-114.3,86.36,0,GND,,,,"/>
-<approved hash="102,2,-160.02,-38.1,0,GND,,,,"/>
-<approved hash="102,2,-160.02,-86.36,0,GND,,,,"/>
-<approved hash="102,2,-149.86,17.78,0,GND,,,,"/>
-<approved hash="102,2,-68.58,-2.54,0,GND,,,,"/>
-<approved hash="102,2,220.98,114.3,0,GND,,,,"/>
-<approved hash="102,3,8.89,-58.42,0,GND,,,,"/>
-<approved hash="102,3,123.19,-124.46,0,GND,,,,"/>
-<approved hash="102,3,123.19,-106.68,0,GND,,,,"/>
-<approved hash="102,3,107.95,-15.24,0,GND,,,,"/>
-<approved hash="102,3,110.49,-58.42,0,GND,,,,"/>
-<approved hash="102,3,-20.32,96.52,0,GND,,,,"/>
-<approved hash="102,3,-20.32,76.2,0,GND,,,,"/>
-<approved hash="102,3,-20.32,60.96,0,GND,,,,"/>
-<approved hash="102,3,106.68,106.68,0,GND,,,,"/>
-<approved hash="102,3,106.68,91.44,0,GND,,,,"/>
-<approved hash="102,3,106.68,76.2,0,GND,,,,"/>
-<approved hash="102,3,0,-27.94,0,GND,,,,"/>
-<approved hash="102,3,157.48,-58.42,0,GND,,,,"/>
-<approved hash="102,3,157.48,-43.18,0,GND,,,,"/>
-<approved hash="102,3,157.48,-27.94,0,GND,,,,"/>
-<approved hash="102,3,157.48,-12.7,0,GND,,,,"/>
-<approved hash="102,3,-157.48,22.86,0,GND,,,,"/>
-<approved hash="102,3,-71.12,2.54,0,GND,,,,"/>
-<approved hash="102,3,-106.68,88.9,0,GND,,,,"/>
-<approved hash="102,3,180.34,106.68,0,GND,,,,"/>
-<approved hash="102,4,8.89,-58.42,0,GND,,,,"/>
-<approved hash="102,4,123.19,-127,0,GND,,,,"/>
-<approved hash="102,4,123.19,-109.22,0,GND,,,,"/>
-<approved hash="102,4,113.03,-7.62,0,GND,,,,"/>
-<approved hash="102,4,113.03,-60.96,0,GND,,,,"/>
-<approved hash="102,4,-20.32,96.52,0,GND,,,,"/>
-<approved hash="102,4,-20.32,76.2,0,GND,,,,"/>
-<approved hash="102,4,-20.32,60.96,0,GND,,,,"/>
-<approved hash="102,4,106.68,106.68,0,GND,,,,"/>
-<approved hash="102,4,106.68,91.44,0,GND,,,,"/>
-<approved hash="102,4,106.68,76.2,0,GND,,,,"/>
-<approved hash="102,4,0,-27.94,0,GND,,,,"/>
-<approved hash="102,4,154.94,-58.42,0,GND,,,,"/>
-<approved hash="102,4,154.94,-43.18,0,GND,,,,"/>
-<approved hash="102,4,154.94,-27.94,0,GND,,,,"/>
-<approved hash="102,4,154.94,-12.7,0,GND,,,,"/>
-<approved hash="102,4,-154.94,22.86,0,GND,,,,"/>
-<approved hash="102,4,-71.12,2.54,0,GND,,,,"/>
-<approved hash="102,4,-114.3,81.28,0,GND,,,,"/>
-<approved hash="102,4,180.34,106.68,0,GND,,,,"/>
->>>>>>> e81ad443787d3810da5f4dee17d008dd2e408114
 <approved hash="206,2,-190.5,-60.96,LDO_OUT_,,,,,"/>
 <approved hash="206,2,-157.48,-58.42,LDO_OUT_,,,,,"/>
 </errors>
